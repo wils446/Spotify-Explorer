@@ -1,0 +1,24 @@
+.navbar {
+	@apply bg-zinc-900;
+	@apply text-white;
+	@apply py-4;
+	@apply px-10;
+	@apply sticky;
+	@apply top-0;
+}
+
+.navbar-brand {
+	@apply text-2xl;
+	@apply font-semibold;
+}
+
+.navbar-input {
+	@apply text-white;
+	@apply bg-stone-800;
+	@apply mx-auto;
+	@apply h-full;
+	@apply w-full;
+	@apply rounded-full;
+	@apply focus:outline-none;
+	@apply text-center;
+}
