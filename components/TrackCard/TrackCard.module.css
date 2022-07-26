@@ -1,0 +1,31 @@
+.card-hover {
+	@apply bg-opacity-50;
+}
+
+.card-box {
+	@apply p-4;
+	@apply rounded-lg;
+	@apply w-44;
+	@apply h-64;
+	@apply bg-zinc-900;
+	@apply hover:cursor-pointer;
+}
+
+.card-img {
+	@apply rounded-lg;
+	@apply mb-1;
+}
+
+.card-title {
+	@apply text-center;
+	@apply text-base;
+	@apply text-gray-300;
+	@apply font-medium;
+}
+
+.card-artist-name {
+	@apply text-sm;
+	@apply text-center;
+	@apply text-gray-500;
+	@apply mt-1;
+}
