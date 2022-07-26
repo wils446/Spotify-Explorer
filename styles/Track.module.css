@@ -1,0 +1,53 @@
+.layout {
+	@apply bg-zinc-900;
+	@apply h-screen;
+}
+
+.layout-container {
+	@apply p-16;
+}
+
+.track-background {
+	@apply bg-gradient-to-r;
+	@apply from-gray-700;
+	@apply h-full;
+}
+
+.track-image {
+	@apply w-48;
+	@apply h-48;
+}
+
+.track-info {
+	@apply h-full;
+	@apply bg-gradient-to-r;
+	@apply from-gray-800;
+	@apply pl-4;
+	@apply pt-12;
+	@apply flex;
+}
+
+.track-title {
+	@apply text-5xl;
+	@apply text-white;
+	@apply font-semibold;
+	@apply text-left;
+	@apply mb-1;
+}
+
+.track-artist {
+	@apply text-xl;
+	@apply text-gray-400;
+}
+
+.track-description {
+	@apply text-white;
+	@apply text-xl;
+	@apply font-semibold;
+	@apply pt-2;
+	@apply p-4;
+}
+
+.track-description-text {
+	@apply my-2;
+}
